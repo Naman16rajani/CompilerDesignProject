@@ -1,5 +1,5 @@
 # CompilerDesignProject
-##How to run 
+###How to run 
 lex project.lex
 yacc -d project.y
 cc y.tab.c lex.yy.c -o TempConverter >TempConverter.exe
