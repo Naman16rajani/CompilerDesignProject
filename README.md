@@ -1,10 +1,10 @@
 # CompilerDesignProject
-###How to run 
+## steps to run
 lex project.lex
 yacc -d project.y
 cc y.tab.c lex.yy.c -o TempConverter >TempConverter.exe
 
-##Output
+## Output
 1> Enter sentence: 40 celsius atle ketla kelvin ?
 Digit		: 40
 Temp Unit	: celsius 
